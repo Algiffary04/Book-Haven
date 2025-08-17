@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Abdulgafar Book Haven"</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            width: 200px;
+            border-radius: 10px;
+            height: 200px;
+        }
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+        header h1 {
+            margin: 5px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 2px;
+            margin: 10px;
+            display: inline-block;
+            gap: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: tomato
+        }
+        main {
+            padding: 3em;
+        }
+        .book {
+            display: inline-flex;
+            gap: 1em
+        }
+        .book {
+            width: 30%;
+            border-radius: 1px;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 1em;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 0.5em;
+        }
+        form {
+            margin-top: 1em;
+            max-width: 400px;
+        }
+        form label {
+            display: block;
+            margin-top: 0.5em;
+            font-size: 22px;
+        }
+        form input, form textarea, form  button {
+            width: 100%;
+            padding: 0.5em;
+            margin-top: 0.3em;
+        }
+        footer a {
+            color: #ff9800;
+        }
+     </style>
+</head>
+<body> 
+    <header>
+        <h1>Abdulgafar Book Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="#section-home">HOME</a></li>
+                <li><a href="#section-books">BOOKS</a></li>
+                <li><a href="#section-contact">CONTACT</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <section>
+             <h2 id="section-home">HOME</h2>
+            <p>
+                "Welcome to Abdulgafar Book Haven to our coner of literary! We`re thrilled to havebrowse our shelves, where classics meet cotemporary bestseller. Whether you`re a bookworm, a casual reader, or just looking for new adventure, we`re gald you`re here.Take your time, get lost in our pages, and discover your next favorite storey!"</p>
+        </section>
+        <section>
+            <h2 id="section-books">BOOKS</h2>
+                <article class="book">
+                    <h3>Archers Voice</h3>
+                    <p>by Mia Sheridan</p>
+                    <img src="_OceanofPDF.com_Archers_Voice_-_Mia_Sheridan_0000.jpg" alt="Book Cover of Archers Voice">
+
+                </article>
+                <article class="book">
+                    <h3>Alchimistul</h3>
+                    <p>by Paulo Coelho</p>
+                    <img src="Alchimistul.jpg" alt="Book Cover of Alchimistul">
+                </article>
+                <article class="book">
+                    <h3>Every Summer After</h3>
+                    <p>by Carley Fortune</p>
+                    <img src="Every Summer After.jpg" alt="Book Coer of Every Summer After">
+                </article>
+        </section>
+        <section>
+            <h2>Book Categories & Staring Price</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Starting Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dark Romanance</td>
+                        <td>$30</td>
+                    </tr>
+                    <tr>
+                        <td>Fiction</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>adventure</td>
+                        <td>$20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2 id="section-contact">CONTACT</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required> <br>
+                <label for="messege">Messege:</label>
+                <textarea name="messege" id="messege"  rows="4" required></textarea>
+                <button type="submit"> <b>Submit</b> </button>
+                <a href="#">Jump to Top</a>
+            </form>
+        </section>
+      </main>  
+      <footer>
+          <p> &copy;2025 Abdulgafar Book Haven. All rights reserved.</p>
+          <p>Visit our book site <a href="https://www.goodreads.com" target="_blank">Goodreads</a></p>
+      </footer>
+    
+</body>
+</html>
